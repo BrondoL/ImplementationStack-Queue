@@ -67,7 +67,7 @@ int main(){
 												if(cek!='y')
 													tampung[i++].data = Stack.getTop();
 												Stack.pop();
-												system("cls");
+												system("clear");
 											}
 										}while(cek!='y');
 										for(int j=0; j<i; j++){
@@ -87,7 +87,7 @@ int main(){
 									cin.get();
 									break;
 							}
-							system("cls");
+							system("clear");
 						}while (menu != 4);
 						menu = 5;
 					}
@@ -99,7 +99,7 @@ int main(){
 			case 4:
 					exit(0);
 		}
-		system("cls");
+		system("clear");
 	}while (menu != 4);
 
 		cin.get();
@@ -118,7 +118,7 @@ int menu_action(){
 	cout << "4. kembali"<<endl<<endl;
 	cout << "Pilihan : "; cin >> menu;
 	cin.ignore();
-	system("cls");
+	system("clear");
 	return menu;
 }
 
@@ -132,6 +132,6 @@ int menu_antre(){
 	cout << "4. Exit..."<<endl<<endl;
 	cout << "Pilihan : "; cin >> menu;
 	cin.ignore();
-	system("cls");
+	system("clear");
 	return menu;
 }

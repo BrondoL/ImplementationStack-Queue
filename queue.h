@@ -8,7 +8,7 @@ private:
 	int myqueue[MAX_SIZE], front, rear;
 
 public:
-	Queue(){
+	myQueue(){
 		front = -1;
 		rear = -1;
 	}
@@ -34,7 +34,7 @@ public:
 	int deQueue(){
 		int value;
 		if(isEmpty()) {
-			cout << "Queue kosong !" << endl; return(-1);
+            return(-1);
 		} else {
 			value = myqueue[front];
 			if(front >= rear){
