@@ -1,4 +1,4 @@
- ![SreenShot](https://github.com/BrondoL/ImplementationStack-Queue/tree/master/ScreenShot/SS.png)
+ ![SreenShot](https://github.com/BrondoL/ImplementationStack-Queue/blob/master/ScreenShot/SS.png)
 
 # Perpustakaan Gak Jelas :v
 
